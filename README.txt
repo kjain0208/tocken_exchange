@@ -17,6 +17,7 @@ This is currently for one token exchange using metamask extention, working on mu
 10)connect https://remix.ethereum.org to localhost(localhost address given by testrpc) 
 11)connect metamask to the same localhost
 12)deploy "FuncToken.sol"
-13)open new cmd in extracted directory and run "npm run dev"
-14)login into metamask with private key provided by metamask
-15)now open new tab on chrome and open localhost provided by "npm run dev"
+13)copy the deployed address and paste it into "../tocken_exchange/src/config"
+14)open new cmd in extracted directory and run "npm run dev"
+15)login into metamask with private key provided by metamask
+16)now open new tab on chrome and open localhost provided by "npm run dev"
